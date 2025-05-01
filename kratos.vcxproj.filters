@@ -18,42 +18,5 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mesh.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VulkanRenderer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Mesh.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Utilities.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanRenderer.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VulkanValidation.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Shaders\compile_shaders.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="Shaders\frag.spv">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="Shaders\shader.frag">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="Shaders\shader.vert">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="Shaders\vert.spv">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
