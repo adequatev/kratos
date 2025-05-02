@@ -20,6 +20,38 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="shared\HelpersGLFW.cpp" />
+    <ClCompile Include="shared\LineCanvas.cpp" />
+    <ClCompile Include="shared\Scene\MergeUtil.cpp" />
+    <ClCompile Include="shared\Scene\Scene.cpp" />
+    <ClCompile Include="shared\Scene\VtxData.cpp" />
+    <ClCompile Include="shared\Utils.cpp" />
+    <ClCompile Include="shared\UtilsAnim.cpp" />
+    <ClCompile Include="shared\UtilsCubemap.cpp" />
+    <ClCompile Include="shared\UtilsGLTF.cpp" />
+    <ClCompile Include="shared\VulkanApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shared\Bitmap.h" />
+    <ClInclude Include="shared\Camera.h" />
+    <ClInclude Include="shared\Graph.h" />
+    <ClInclude Include="shared\HelpersGLFW.h" />
+    <ClInclude Include="shared\LineCanvas.h" />
+    <ClInclude Include="shared\Scene\MergeUtil.h" />
+    <ClInclude Include="shared\Scene\Scene.h" />
+    <ClInclude Include="shared\Scene\VtxData.h" />
+    <ClInclude Include="shared\Tonemap.h" />
+    <ClInclude Include="shared\Trackball.h" />
+    <ClInclude Include="shared\Utils.h" />
+    <ClInclude Include="shared\UtilsAnim.h" />
+    <ClInclude Include="shared\UtilsCubemap.h" />
+    <ClInclude Include="shared\UtilsFPS.h" />
+    <ClInclude Include="shared\UtilsGLTF.h" />
+    <ClInclude Include="shared\UtilsMath.h" />
+    <ClInclude Include="shared\VulkanApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shared\CMakeLists.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -107,7 +139,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glfw-x64\include;C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glm;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\wadim\Downloads\lightweightvk-1.3.0\third-party\deps\src;C:\Users\wadim\Downloads\lightweightvk-1.3.0\lvk;C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glfw-x64\include;C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glm;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -124,7 +157,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glfw-x64\include;C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glm;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\wadim\Downloads\lightweightvk-1.3.0\third-party\deps\src;C:\Users\wadim\Downloads\lightweightvk-1.3.0\lvk;C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glfw-x64\include;C:\Users\wadim\Documents\Visual Studio 2022\Libraries\glm;C:\VulkanSDK\1.3.296.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
